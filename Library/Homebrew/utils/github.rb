@@ -45,6 +45,8 @@ module GitHub
           Or create a personal access token:
             #{ALL_SCOPES_URL}
           and then set the token as: export HOMEBREW_GITHUB_API_TOKEN="your_new_token"
+          Alternatively, you can disable Github API requests with:
+            export HOMEBREW_NO_GITHUB_API=1
         EOS
       end
       super message
